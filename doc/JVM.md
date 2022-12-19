@@ -41,10 +41,12 @@
 - Native 키워드를 사용한 메서드 호출
 ## Native Method Library
 - C, C++로 작성 된 라이브러리 <br>
-ex <br>
+ex) <br>
+
 ![image](https://user-images.githubusercontent.com/90208100/208384943-ee3827cf-55f0-4bcd-b1cd-965a5413c9a1.png)
 
 ## Class Loader
+
 ![image](https://user-images.githubusercontent.com/90208100/208384685-73748ac3-0425-4e5a-89de-684099c6db0f.png)
 
 클래스 로더는 계층 구조로 이루어져 있으며 기본적으로 세가지 클래스 로더가 제공
@@ -54,6 +56,7 @@ ex <br>
 3. Application Class Loader : 애플리케이션 클래스패스(애플리케이션 실행할때 주는 -classpath 옵션 또는 java.class.path 환경 변수의 값에 해당하는 위치)에서 클래스를 읽음.
 <br>
 ![image](https://user-images.githubusercontent.com/90208100/208384986-5d8a9b50-9634-4005-8cfc-6c05c41ff481.png)
+<br>
 ![image](https://user-images.githubusercontent.com/90208100/208385121-7165f5ae-adad-4d41-b424-6f64bf447cde.png)
 
 App이라는 클래스를 만든 후 해당 클래스의 클래스 로더를 출력해보면 Application Class Loader(AppClassLoader)가 나오고<br>
