@@ -41,7 +41,7 @@
 - Native 키워드를 사용한 메서드 호출
 ## Native Method Library
 - C, C++로 작성 된 라이브러리 <br>
-ex) <br>
+ex <br>
 ![image](https://user-images.githubusercontent.com/90208100/208384943-ee3827cf-55f0-4bcd-b1cd-965a5413c9a1.png)
 
 ## Class Loader
