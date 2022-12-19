@@ -1,18 +1,18 @@
 # JVM (Java Virtual Machine)
-![img_1.png](img_1.png)
+![image](https://user-images.githubusercontent.com/90208100/208384637-01a99db7-eca6-49a1-a932-bbf3e34560af.png)
 ## Class Loader 시스템
 - .class 에서 바이트코드를 읽고 메모리에 저장
 <br><br>
-![img_3.png](img_3.png)
+![image](https://user-images.githubusercontent.com/90208100/208384844-e79eb8c9-96e0-4de9-ba12-ab2357f6ffda.png)
 <br>
 - HelloWorld.java 파일의 바이트 코드는 HelloWorld.class 파일
 <br><br>
-![img_10.png](img_10.png)
+![image](https://user-images.githubusercontent.com/90208100/208385154-38570982-ca5a-49f9-be15-ffd58a9c8fcc.png)
 <br>
 - 위 그림은 HelloWorld.class 파일임. 
 - .class 파일은 byte 코드인데 왜 저렇게 생겼지?? --> Decompilede 되어 보여짐
 <br><br>
-![img_4.png](img_4.png)
+![image](https://user-images.githubusercontent.com/90208100/208384900-b1adc4df-375e-4f02-b30a-44552669ed11.png)
 <br>
 - 실제 바이트 코드는 위 그림과 같음
 <br><br>
@@ -42,10 +42,10 @@
 ## Native Method Library
 - C, C++로 작성 된 라이브러리 <br>
 ex) <br>
-![img_5.png](img_5.png)
+![image](https://user-images.githubusercontent.com/90208100/208384943-ee3827cf-55f0-4bcd-b1cd-965a5413c9a1.png)
 
 ## Class Loader
-![img_2.png](img_2.png)
+![image](https://user-images.githubusercontent.com/90208100/208384685-73748ac3-0425-4e5a-89de-684099c6db0f.png)
 
 클래스 로더는 계층 구조로 이루어져 있으며 기본적으로 세가지 클래스 로더가 제공
 
@@ -53,8 +53,8 @@ ex) <br>
 2. Platform Class Loader : JAVA_HOME\lib\ext 폴더 또는 java.ext.dirs 시스템 변수에 해당하는 위치에 있는 클래스를 읽음.
 3. Application Class Loader : 애플리케이션 클래스패스(애플리케이션 실행할때 주는 -classpath 옵션 또는 java.class.path 환경 변수의 값에 해당하는 위치)에서 클래스를 읽음.
 <br>
-![img_6.png](img_6.png)<br>
-![img_9.png](img_9.png)<br>
+![image](https://user-images.githubusercontent.com/90208100/208384986-5d8a9b50-9634-4005-8cfc-6c05c41ff481.png)
+![image](https://user-images.githubusercontent.com/90208100/208385121-7165f5ae-adad-4d41-b424-6f64bf447cde.png)
 
 App이라는 클래스를 만든 후 해당 클래스의 클래스 로더를 출력해보면 Application Class Loader(AppClassLoader)가 나오고<br>
 해당 클래스의 클래스로더의 부모 클래스 로더는 PlatformClassLoader가 나온다.<br>
@@ -64,7 +64,7 @@ PlatformClassLoader의 부모 클래스 로더를 확인해보면 null이 나오
 BootStrap Class Loader가 나와야 하는 것 아닌가?<br>
 실제로는 존재하지만 BootStrap Class Loader는 native code로 구현되어 있어 자바 코드로 볼 수 없을 뿐 <br><br>
 
-![img_8.png](img_8.png)<br>
+![image](https://user-images.githubusercontent.com/90208100/208385085-3df924ef-2a8c-4654-81cd-7cb1bf79af27.png)<br>
 
 ### 클래스 로더가 동작하는 원리
 1. 어떤 클래스를 읽어야 할 가장 먼저 제일 부모 즉 Bootstrap Class Loader가 읽어 오기 시도
