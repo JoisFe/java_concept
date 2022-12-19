@@ -7,7 +7,7 @@
 <br>
 - HelloWorld.java 파일의 바이트 코드는 HelloWorld.class 파일
 <br><br>
-![image](https://user-images.githubusercontent.com/90208100/208385154-38570982-ca5a-49f9-be15-ffd58a9c8fcc.png)
+![image](https://user-images.githubusercontent.com/90208100/208385154-38570982-ca5a-49f9-be15-ffd58a9c8fcc.png?raw=true)
 <br>
 - 위 그림은 HelloWorld.class 파일임. 
 - .class 파일은 byte 코드인데 왜 저렇게 생겼지?? --> Decompilede 되어 보여짐
