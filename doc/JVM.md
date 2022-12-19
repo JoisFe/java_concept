@@ -53,7 +53,7 @@ ex) <br>
 2. Platform Class Loader : JAVA_HOME\lib\ext 폴더 또는 java.ext.dirs 시스템 변수에 해당하는 위치에 있는 클래스를 읽음.
 3. Application Class Loader : 애플리케이션 클래스패스(애플리케이션 실행할때 주는 -classpath 옵션 또는 java.class.path 환경 변수의 값에 해당하는 위치)에서 클래스를 읽음.
 <br>
-![img_7.png](img_7.png)<br>
+![img_6.png](img_6.png)<br>
 ![img_9.png](img_9.png)<br>
 
 App이라는 클래스를 만든 후 해당 클래스의 클래스 로더를 출력해보면 Application Class Loader(AppClassLoader)가 나오고<br>
